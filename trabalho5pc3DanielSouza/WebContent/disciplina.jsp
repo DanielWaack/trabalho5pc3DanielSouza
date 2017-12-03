@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Disciplinas</title>
 </head>
 <body>
 
@@ -19,6 +19,10 @@
 		<input type="submit" name="crud" value="Alterar" />
 		<input type="submit" name="crud" value="Excluir" />
 		<input type="submit" name="crud" value="Pesquisar" />
+		<br> <br> Para as operações "excluir" e "pesquisar" apenas o campo código precisa ser preenchido.
+		<br> Quaisquer informações nos outros campos serão ignoradas.
+		<br> As outras requerem todos os campos.
+		<br> Deixar o campo código vazio em "pesquisar" vai mostrar todas as disciplinas.
 	</form>
 
 </body>
